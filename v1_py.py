@@ -9,9 +9,11 @@ Original file is located at
 
 
 
-a=5
-b=7
-c=6
-x=7
-y=a*x*x+b*x+c
+a = float(input("Enter the value for a: "))
+b = float(input("Enter the value for b: "))
+c = float(input("Enter the value for c: "))
+x = float(input("Enter the value for x: "))
+
+# Calculating the value of y
+y = a * x * x + b * x + c
 print(y)
